@@ -5,7 +5,6 @@ interface Props {
 }
 
 let Avatar: (props: Props) => JSX.Element = ({ avatar }) => {
-  console.log(avatar);
   return (
     <div className="Avatar">
       <img src={avatar} alt="user profile" style={{ width: '400px' }} />
